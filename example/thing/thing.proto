@@ -9,7 +9,9 @@ option go_package = "github.com/stackb/rules_proto/example/thing;thing";
 import "google/protobuf/timestamp.proto";
 
 message Thing {
+    // The ID of the thing.
     string id = 1;
+    // The creation timestamp of the thing.
     google.protobuf.Timestamp created_at = 2;
 }
 
